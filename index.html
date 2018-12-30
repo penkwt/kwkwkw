@@ -1,3 +1,4 @@
+
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE html>
 <html lang='en-us' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
@@ -34,7 +35,7 @@
 
 <link href='https://raw.githubusercontent.com/yousfmefreh/cssiymsh/master/iymshcss.css                                              ' rel='stylesheet' type='text/css'/>
 
-<script type='text/javascript'> 
+<script type='text/javascript'>
 //<![CDATA[
 
 window.selectnav=function(){"use strict";var e=function(e,t){function c(e){var t;if(!e)e=window.event;if(e.target)t=e.target;else if(e.srcElement)t=e.srcElement;if(t.nodeType===3)t=t.parentNode;if(t.value)window.location.href=t.value}function h(e){var t=e.nodeName.toLowerCase();return t==="ul"||t==="ol"}function p(e){for(var t=1;document.getElementById("selectnav"+t);t++);return e?"selectnav"+t:"selectnav"+(t-1)}function d(e){a++;var t=e.children.length,n="",l="",c=a-1;if(!t){return}if(c){while(c--){l+=o}l+=" "}for(var v=0;v<t;v++){var m=e.children[v].children[0];if(typeof m!=="undefined"){var g=m.innerText||m.textContent;var y="";if(r){y=m.className.search(r)!==-1||m.parentNode.className.search(r)!==-1?f:""}if(i&&!y){y=m.href===document.URL?f:""}n+='<option value="'+m.href+'" '+y+">"+l+g+"</option>";if(s){var b=e.children[v].children[1];if(b&&h(b)){n+=d(b)}}}}if(a===1&&u){n='<option value="">'+u+"</option>"+n}if(a===1){n='<select class="selectnav" id="'+p(true)+'">'+n+"</select>"}a--;return n}e=document.getElementById(e);if(!e){return}if(!h(e)){return}if(!("insertAdjacentHTML"in window.document.documentElement)){return}document.documentElement.className+=" js";var n=t||{},r=n.activeclass||"active",i=typeof n.autoselect==="boolean"?n.autoselect:true,s=typeof n.nested==="boolean"?n.nested:true,o=n.indent||"?",u=n.label||"- القائمة -",a=0,f=" selected ";e.insertAdjacentHTML("afterend",d(e));var l=document.getElementById(p());if(l.addEventListener){l.addEventListener("change",c)}if(l.attachEvent){l.attachEvent("onchange",c)}return l};return function(t,n){e(t,n)}}();$(document).ready(function(){selectnav('nav');selectnav('nav1');selectnav('nav3');});
@@ -55,7 +56,7 @@ body{position:initial;}
 <script type='text/javascript'>//<![CDATA[
 (function(a) {
     a.fn.lazyload=function(b){var c={threshold:
- 
+
 0,failurelimit:0,event:"scroll",effect:"show",container:window;
 };
 if(b) {
@@ -63,7 +64,7 @@ if(b) {
 }
 var d=this;if("scroll"==c.event) {
     a(c.container).bind("scroll",function(b){var e=0;d.each(function(){if
- 
+
 (a.abovethetop(this,c)||a.leftofbegin(this,c)){
 }
 else if(!a.belowthefold(this,c)&&!a.rightoffold(this,c)) {
@@ -81,7 +82,7 @@ this.each(function() {
 var b=this;if(undefined==a(b).attr("original")){a(b).attr("original",a(b).attr("src"));
 }
 if("scroll"!=c.event||undefined==a(b).attr("src")||c.placeholder==a(b).attr("src")||
- 
+
 a.abovethetop(b,c)||a.leftofbegin(b,c)||a.belowthefold(b,c)||a.rightoffold(b,c)) {
 if(c.placeholder){a(b).attr("src",c.placeholder);
 }
@@ -95,7 +96,7 @@ b.loaded=true;
 }
 a(b).one("appear",function() {
 if(!this.loaded){a("<img />").bind("load",function(){a(b).hide().attr("src",a(b).attr
- 
+
 ("original"))[c.effect](c.effectspeed);b.loaded=true;
 }).attr("src",a(b).attr("original"));
 }});
@@ -106,7 +107,7 @@ a(c.container).trigger(c.event);return this;
 };
 a.belowthefold=function(b,c) {
 if(c.container===undefined||c.container===window){var d=a(window).height()+a
- 
+
 (window).scrollTop();
 }
 else {
@@ -116,7 +117,7 @@ return d<=a(b).offset().top-c.threshold;
 };
 a.rightoffold=function(b,c) {
 if(c.container===undefined||c.container===window){var d=a(window).width()+a
- 
+
 (window).scrollLeft();
 }
 else {
@@ -143,20 +144,20 @@ return d>=a(b).offset().left+c.threshold+a(b).width();
 a.extend(a.expr[":"], {
 "below-the-fold"
 :"$.belowthefold(a, {threshold : 0, container: window})","above-the-fold": "!
- 
+
 $.belowthefold(a, {threshold : 0, container: window})","right-of-fold":"$.rightoffold
- 
+
 (a, {threshold : 0, container: window})","left-of-fold":"!$.rightoffold(a, {threshold :
- 
+
 0, container: window})";
 })})(jQuery);$(function() {
 $("img").lazyload({placeholder:
- 
+
 "http://i22.servimg.com/u/f22/15/42/72/40/grey10.gif",effect:"fadeIn",threshold:"-50";
 })})//]]></script>
 
 
-</head>  
+</head>
 <script src='www.pagead2.googlesyndication.com/pagead/js/adsbygoogle.js'/>
 <script>
   (adsbygoogle = window.adsbygoogle || []).push({
@@ -165,16 +166,16 @@ $("img").lazyload({placeholder:
   });
 </script>
 <body>
-    
-    
+
+
 <svg width="200" heigh="200">
     <circle cx="9" cy="8" r="100"
             fill="white"></circle>
 
     </svg>
-    
-    <p style="margin-top:  -12px;text-align: center;color: #fff;font-size: 25px; " >  
-    " نحن العين الساهرة " 
+
+    <p style="margin-top:  -12px;text-align: center;color: #fff;font-size: 25px; " >
+    " نحن العين الساهرة "
 </p>
 
 <div class='all'>
@@ -184,9 +185,9 @@ $("img").lazyload({placeholder:
   </div>
   </div>
 
- 
+
 <center>
-    <a href="test1.html"><img src="1.png"/></a>
+    <a href="ex.html"><img src="1.png"/></a>
 
    <p  style="
     border: 4px solid #fff;
@@ -195,13 +196,13 @@ $("img").lazyload({placeholder:
     margin-top: 21px;
     width: 144px;
     color: #fff;
-" class="">حادث مرور</p> 
-    
+" class="">حادث مرور</p>
+
     <a href="https://gsminsark.blogspot.com"><img src="2.png"/></a>
-    
-    
-    
-    
+
+
+
+
        <p style="
     border: 4px solid #fff;
     border-radius: 12px;;
@@ -210,10 +211,10 @@ $("img").lazyload({placeholder:
     width: 144px;
     text-align: -webkit-center;
     color: #fff;
-" class="">حرائق</p> 
-    
+" class="">حرائق</p>
+
       <a href="https://gsminsark.blogspot.com"><img src="3.png"/></a>
-    
+
        <p style="
     border: 4px solid #fff;
     border-radius: 12px;
@@ -222,10 +223,10 @@ $("img").lazyload({placeholder:
     width: 144px;
     text-align: -webkit-center;
     color: #fff;
-" class="">قمامة </p> 
-    
+" class="">قمامة </p>
+
       <a href="https://gsminsark.blogspot.com"><img src="4.png"/></a>
-    
+
        <p style="
     border: 4px solid #fff;
     border-radius: 12px;
@@ -234,17 +235,17 @@ $("img").lazyload({placeholder:
     width: 144px;
     text-align: -webkit-center;
     color: #fff;
-" class="">ابلاغ عن حاله خطف</p> 
-    
-    
-  
-    
+" class="">ابلاغ عن حاله خطف</p>
+
+
+
+
     </center>
-    
+
     <!-- بدايه كود  صندوق التخطيط    -->
 <b:section id='teast'/>
 <!-- نهاية كود صندوق التخطيط   -->
-  
+
 
 <!-- Go to www.addthis.com/dashboard to customize your tools -->
 <script src='//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5a58d5c62aebb75b' type='text/javascript'/>
