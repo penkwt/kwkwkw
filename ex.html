@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html>
+<html lang='en-us' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
+<title> يوسف الشمري | iymsh </title>
+<head>
+<link href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css' rel='stylesheet'/>
+<link href='https://fonts.googleapis.com/css?family=Harmattan' rel='stylesheet'/>
+<link href='https://fonts.googleapis.com/css?family=Rakkas' rel='stylesheet'/>
+<link href='https://fonts.googleapis.com/css?family=Mirza' rel='stylesheet'/>
+<link href='https://fonts.googleapis.com/css?family=Cairo' rel='stylesheet'/>
+<link href='https://fonts.googleapis.com/css?family=Rakkas' rel='stylesheet'/>
+<link href='https://fonts.googleapis.com/css?family=Aref+Ruqaa' rel='stylesheet'/>
+<link href='https://fonts.googleapis.com/css?family=Scheherazade' rel='stylesheet'/>
+  <link href='https://fonts.googleapis.com/css?family=Amiri' rel='stylesheet'/>
+        <link rel="stylesheet" href="Untitled-1.css" type="text/css" media="screen" />
+
+<meta charset='utf-8'/>
+<title><data:blog.pageTitle/></title>
+<meta content='Lorem ipsum dolor sit amet, consectetur adipiscing elit.' name='description'/>
+<meta content='width=device-width, initial-scale=1.0' name='viewport'/>
+<meta content='' name='author'/>
+ <script async='async' src='//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js'/>
+<script>
+  (adsbygoogle = window.adsbygoogle || []).push({
+    google_ad_client: &quot;ca-pub-9023765843886562&quot;,
+    enable_page_level_ads: true
+  });
+
+</script>
+
+
+
+
+
+<link href='https://raw.githubusercontent.com/yousfmefreh/cssiymsh/master/iymshcss.css                                              ' rel='stylesheet' type='text/css'/>
+
+<script type='text/javascript'> 
+//<![CDATA[
+
+window.selectnav=function(){"use strict";var e=function(e,t){function c(e){var t;if(!e)e=window.event;if(e.target)t=e.target;else if(e.srcElement)t=e.srcElement;if(t.nodeType===3)t=t.parentNode;if(t.value)window.location.href=t.value}function h(e){var t=e.nodeName.toLowerCase();return t==="ul"||t==="ol"}function p(e){for(var t=1;document.getElementById("selectnav"+t);t++);return e?"selectnav"+t:"selectnav"+(t-1)}function d(e){a++;var t=e.children.length,n="",l="",c=a-1;if(!t){return}if(c){while(c--){l+=o}l+=" "}for(var v=0;v<t;v++){var m=e.children[v].children[0];if(typeof m!=="undefined"){var g=m.innerText||m.textContent;var y="";if(r){y=m.className.search(r)!==-1||m.parentNode.className.search(r)!==-1?f:""}if(i&&!y){y=m.href===document.URL?f:""}n+='<option value="'+m.href+'" '+y+">"+l+g+"</option>";if(s){var b=e.children[v].children[1];if(b&&h(b)){n+=d(b)}}}}if(a===1&&u){n='<option value="">'+u+"</option>"+n}if(a===1){n='<select class="selectnav" id="'+p(true)+'">'+n+"</select>"}a--;return n}e=document.getElementById(e);if(!e){return}if(!h(e)){return}if(!("insertAdjacentHTML"in window.document.documentElement)){return}document.documentElement.className+=" js";var n=t||{},r=n.activeclass||"active",i=typeof n.autoselect==="boolean"?n.autoselect:true,s=typeof n.nested==="boolean"?n.nested:true,o=n.indent||"?",u=n.label||"- القائمة -",a=0,f=" selected ";e.insertAdjacentHTML("afterend",d(e));var l=document.getElementById(p());if(l.addEventListener){l.addEventListener("change",c)}if(l.attachEvent){l.attachEvent("onchange",c)}return l};return function(t,n){e(t,n)}}();$(document).ready(function(){selectnav('nav');selectnav('nav1');selectnav('nav3');});
+
+//]]>
+
+</script>
+
+<style>
+
+body {
+
+overflow: -moz-scrollbars-vertical; overflow-x: hidden; overflow-y: scroll;}
+
+body{position:initial;}
+
+</style>
+<script type='text/javascript'>//<![CDATA[
+    
+    
+    
+(function(a) {
+    a.fn.lazyload=function(b){var c={threshold:
+ 
+0,failurelimit:0,event:"scroll",effect:"show",container:window;
+};
+if(b) {
+    a.extend(c,b);
+}
+var d=this;if("scroll"==c.event) {
+    a(c.container).bind("scroll",function(b){var e=0;d.each(function(){if
+ 
+(a.abovethetop(this,c)||a.leftofbegin(this,c)){
+}
+else if(!a.belowthefold(this,c)&&!a.rightoffold(this,c)) {
+    a(this).trigger("appear");
+}
+else {
+    if(e++>c.failurelimit){return false;
+}}});
+var f=a.grep(d,function(a) {
+    return!a.loaded;
+});
+d=a(f);
+})}
+this.each(function() {
+var b=this;if(undefined==a(b).attr("original")){a(b).attr("original",a(b).attr("src"));
+}
+if("scroll"!=c.event||undefined==a(b).attr("src")||c.placeholder==a(b).attr("src")||
+ 
+a.abovethetop(b,c)||a.leftofbegin(b,c)||a.belowthefold(b,c)||a.rightoffold(b,c)) {
+if(c.placeholder){a(b).attr("src",c.placeholder);
+}
+else {
+a(b).removeAttr("src");
+}
+b.loaded=false;
+}
+else {
+b.loaded=true;
+}
+a(b).one("appear",function() {
+if(!this.loaded){a("<img />").bind("load",function(){a(b).hide().attr("src",a(b).attr
+ 
+("original"))[c.effect](c.effectspeed);b.loaded=true;
+}).attr("src",a(b).attr("original"));
+}});
+if("scroll"!=c.event) {
+a(b).bind(c.event,function(c){if(!b.loaded){a(b).trigger("appear");
+}})}});
+a(c.container).trigger(c.event);return this;
+};
+a.belowthefold=function(b,c) {
+if(c.container===undefined||c.container===window){var d=a(window).height()+a
+ 
+(window).scrollTop();
+}
+else {
+var d=a(c.container).offset().top+a(c.container).height();
+}
+return d<=a(b).offset().top-c.threshold;
+};
+a.rightoffold=function(b,c) {
+if(c.container===undefined||c.container===window){var d=a(window).width()+a
+ 
+(window).scrollLeft();
+}
+else {
+var d=a(c.container).offset().left+a(c.container).width();
+}
+return d<=a(b).offset().left-c.threshold;
+};
+a.abovethetop=function(b,c) {
+if(c.container===undefined||c.container===window){var d=a(window).scrollTop();
+}
+else {
+var d=a(c.container).offset().top;
+}
+return d>=a(b).offset().top+c.threshold+a(b).height();
+};
+a.leftofbegin=function(b,c) {
+if(c.container===undefined||c.container===window){var d=a(window).scrollLeft();
+}
+else {
+var d=a(c.container).offset().left;
+}
+return d>=a(b).offset().left+c.threshold+a(b).width();
+};
+a.extend(a.expr[":"], {
+"below-the-fold"
+:"$.belowthefold(a, {threshold : 0, container: window})","above-the-fold": "!
+ 
+$.belowthefold(a, {threshold : 0, container: window})","right-of-fold":"$.rightoffold
+ 
+(a, {threshold : 0, container: window})","left-of-fold":"!$.rightoffold(a, {threshold :
+ 
+0, container: window})";
+})})(jQuery);$(function() {
+$("img").lazyload({placeholder:
+ 
+"http://i22.servimg.com/u/f22/15/42/72/40/grey10.gif",effect:"fadeIn",threshold:"-50";
+})})//]]></script>
+
+
+</head>  
+<script src='www.pagead2.googlesyndication.com/pagead/js/adsbygoogle.js'/>
+<script>
+  (adsbygoogle = window.adsbygoogle || []).push({
+    google_ad_client: &quot;ca-pub-9023765843886562&quot;,
+    enable_page_level_ads: true
+  });
+  
+  
+  
+  
+  
+</script>
+
+
+
+
+<body>
+
+    
+<div>
+    
+             <a href="ex.html"><img src="1-f.png"/></a>
+
+    
+    
+    </div>
+    
+<div class='all'>
+<div id='header'>
+<p style='margin-top:  84px;text-align: center;color: #fff;font-size: 37px;'>  حادث مرور </p>
+
+  </div>
+  </div>
+
+
+
+
+
+    
+        <form action="send.php" method="post">
+<input type="file" accept="image/*">
+
+<input placeholder="الموقع" type="text" name="fullname" />
+<input placeholder="هل الموقع قريب من موقع مشهور " type="text" name="text" />
+<input placeholder="رقم هاتفك" type="number" name="number"/>
+<input placeholder="ملاحظات" type="text" name="message"/>
+<input type="button" value="ارسال">
+
+            </form>
+
+  
+
+    
+<!-- بدايه كود  صندوق التخطيط    -->
+<b:section id='teast'/>
+<!-- نهاية كود صندوق التخطيط   -->
+  
+
+<!-- Go to www.addthis.com/dashboard to customize your tools -->
+<script src='//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5a58d5c62aebb75b' type='text/javascript'/>
+
+
+<div style='text-align: right;position: fixed;z-index:9999999;bottom: 0; width: 100%;cursor: pointer;line-height: 0;display:block !important;'><a title="Hosted on free web hosting 000webhost.com. Host your own website for FREE." target="_blank" href="https://www.000webhost.com/?utm_source=000webhostapp&amp;utm_campaign=000_logo&amp;utm_medium=website_iymsh&amp;utm_content=footer_img"><img src="https://cdn.rawgit.com/000webhost/logo/e9bd13f7/footer-powered-by-000webhost-white2.png"  alt="www.000webhost.com"></a></div></body>
+
+</html>
